@@ -1,0 +1,6 @@
+{
+  "name": "FindMeAJob",
+  "description": "Track job applications across Saved, Applied, Interview, and Offer stages with pay ranges, resume versions, round notes, and instant local persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

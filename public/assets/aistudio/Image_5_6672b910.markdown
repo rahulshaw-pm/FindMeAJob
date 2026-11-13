@@ -1,0 +1,225 @@
+---
+name: Direct Talent Stream
+colors:
+  surface: '#f9f9ff'
+  surface-dim: '#d3daea'
+  surface-bright: '#f9f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f0f3ff'
+  surface-container: '#e7eefe'
+  surface-container-high: '#e2e8f8'
+  surface-container-highest: '#dce2f3'
+  on-surface: '#151c27'
+  on-surface-variant: '#3d4a42'
+  inverse-surface: '#2a313d'
+  inverse-on-surface: '#ebf1ff'
+  outline: '#6d7a72'
+  outline-variant: '#bccac0'
+  surface-tint: '#006c4a'
+  primary: '#006948'
+  on-primary: '#ffffff'
+  primary-container: '#00855d'
+  on-primary-container: '#f5fff7'
+  inverse-primary: '#68dba9'
+  secondary: '#565e74'
+  on-secondary: '#ffffff'
+  secondary-container: '#dae2fd'
+  on-secondary-container: '#5c647a'
+  tertiary: '#006947'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#00855b'
+  on-tertiary-container: '#f5fff6'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#85f8c4'
+  primary-fixed-dim: '#68dba9'
+  on-primary-fixed: '#002114'
+  on-primary-fixed-variant: '#005137'
+  secondary-fixed: '#dae2fd'
+  secondary-fixed-dim: '#bec6e0'
+  on-secondary-fixed: '#131b2e'
+  on-secondary-fixed-variant: '#3f465c'
+  tertiary-fixed: '#6ffbbe'
+  tertiary-fixed-dim: '#4edea3'
+  on-tertiary-fixed: '#002113'
+  on-tertiary-fixed-variant: '#005236'
+  background: '#f9f9ff'
+  on-background: '#151c27'
+  surface-variant: '#dce2f3'
+typography:
+  display-lg:
+    fontFamily: Hanken Grotesk
+    fontSize: 40px
+    fontWeight: '800'
+    lineHeight: 48px
+    letterSpacing: -0.03em
+  display-lg-mobile:
+    fontFamily: Hanken Grotesk
+    fontSize: 32px
+    fontWeight: '800'
+    lineHeight: 38px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Hanken Grotesk
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Hanken Grotesk
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 30px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Hanken Grotesk
+    fontSize: 20px
+    fontWeight: '700'
+    lineHeight: 26px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Hanken Grotesk
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 22px
+  body-lg:
+    fontFamily: Hanken Grotesk
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Hanken Grotesk
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Hanken Grotesk
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-salary:
+    fontFamily: Hanken Grotesk
+    fontSize: 18px
+    fontWeight: '800'
+    lineHeight: 22px
+    letterSpacing: -0.01em
+  label-badge:
+    fontFamily: JetBrains Mono
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+  label-md:
+    fontFamily: Hanken Grotesk
+    fontSize: 13px
+    fontWeight: '600'
+    lineHeight: 16px
+  label-sm:
+    fontFamily: Hanken Grotesk
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 14px
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-md: 1.5rem
+  gutter-lg: 2rem
+  margin: 1rem
+  margin-md: 2rem
+  margin-lg: 3rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+The design system projects immediate authority, speed, and modern transparency. It removes the bureaucratic friction of enterprise hiring platforms in favor of direct, peer-to-peer recruiter connection (inspired by direct-chat hiring platforms like Boss Zhipin and Tal Boss). The interface prioritizes high-velocity decision making: salaries are immediately legible, hiring managers have direct identities, and candidate matching is crisp and confident.
+
+The aesthetic fuses **Modern Executive Direct-Hire** with **Tactile Minimalist Utility**:
+- **Tone:** Authoritative, energetic, transparent, and unfiltered.
+- **Atmosphere:** High-clarity white canvases, structural charcoal line-work, high-signal emerald and electric mint status indicators, and confident typographic rhythm.
+- **Emotional Impact:** Eliminates applicant anxiety by visually surfacing instant feedback loops, direct executive presence ("Direct Boss", "Verified Manager"), and salary transparency.
+
+## Colors
+
+The palette leverages extreme value contrast. Neutral blacks and charcoals command the informational hierarchy, while saturated direct-hire emerald and energetic mint provide unequivocal focus on salaries, active hiring statuses, and verified executive credentials.
+
+- **Primary (`#059669` / Emerald Accent):** Drives high-intent interactive states, verified recruiter tags, active response metrics, and primary confirmation flows.
+- **Secondary (`#0F172A` / Slate Black):** Grounds all primary structural headers, high-salary metrics, and prominent job titles to ensure unmistakable visual weight.
+- **Tertiary (`#10B981` / Electric Mint):** Reserved for real-time status pulses ("Online now", "Replies within 1 hr"), success badges, and high-visibility compensation bands.
+- **Neutral (`#6B7280` / Muted Graphite):** Carries secondary metadata, corporate location pins, company scale indicators, and timestamps.
+- **Base Surfaces & Strokes:** Primary workspace canvas rests on stark `#FFFFFF` accented with container tiers of `#F9FAFB` and `#F3F4F6`. Structural division relies on calibrated border strokes (`#E5E7EB` to `#E2E8F0`).
+
+## Typography
+
+The type system pairs the sharp geometric balance of **Hanken Grotesk** with technical, high-signal data markers in **JetBrains Mono**.
+
+- **Editorial Stance:** Headings deliver punchy, condensed energy with tight tracking (`-0.02em` to `-0.03em`) to mimic executive briefing boards.
+- **Compensation & Figures:** `label-salary` commands instant visual hierarchy on candidate cards, utilizing ultra-heavy weights in contrast to ambient job descriptions.
+- **Executive Badges:** Micro-badges ("Direct Boss", "Verified Manager", "No ATS") leverage `JetBrains Mono` in uppercase styling to evoke audit-grade verification, system transparency, and precision.
+
+## Layout & Spacing
+
+The layout is built around dense, high-utility scanability paired with deliberate breathing room for key interactions:
+
+- **Desktop (1024px+):** Employs a 12-column responsive grid with a 1280px max-width container, 32px gutters (`gutter-lg`), and 48px canvas margins (`margin-lg`). Two-to-three column split workspaces accommodate simultaneous candidate feed browsing and active direct chat panes.
+- **Tablet (768px - 1023px):** Collapses to an 8-column grid with 24px gutters (`gutter-md`) and 32px canvas margins (`margin-md`). Sidebar navigation collapses to a compact icon strip.
+- **Mobile (320px - 767px):** Uses a single-column fluid layout with 16px lateral canvas margins (`margin`) and 16px element gaps (`gutter`). Feed density is tuned for rapid vertical thumb scanning, placing executive avatars, salary tags, and direct messaging triggers within immediate reach.
+
+## Elevation & Depth
+
+Visual hierarchy rejects excessive blur gradients, relying instead on clean, layered structural planes and crisp hairline delineation:
+
+- **Base Surfaces:** Ground level canvas rests at `#FFFFFF`. Grouped listing items and background panels sit on tonal `#F9FAFB` surfaces.
+- **Borders & Dividers:** Surfaces are separated by 1px solid hairline borders in `#E5E7EB` (unselected) and `#111827` (focused/active).
+- **Shadow Profiles:** Shadows remain restrained, ambient, and tinted with deep slate (`rgba(15, 23, 42, 0.04)` to `rgba(15, 23, 42, 0.08)`):
+  - *Resting Card:* 1px border `#E5E7EB` with `0 1px 3px rgba(15, 23, 42, 0.03)`.
+  - *Hover / Card Focus:* 1px border `#D1D5DB` with `0 8px 20px -4px rgba(15, 23, 42, 0.07)`.
+  - *Floating Modals / Direct Message Drawers:* 1px border `#E5E7EB` with `0 20px 30px -10px rgba(15, 23, 42, 0.12)`.
+
+## Shapes
+
+The geometric framework balances approachable modern ergonomics with rigorous executive efficiency:
+
+- **Primary Cards & Containers (`rounded-lg` / 16px):** Job listing cards, profile panels, and communication drawers use generous 16px radii to soften dense informational clusters.
+- **Pill Badges & Chips (`rounded-full` / 9999px):** All status tags, salary badges, skill pills, and response-time indicators utilize strict pill shapes to create visual separation from rectilinear cards.
+- **Inputs & Buttons (`rounded-md` / 8px to 10px):** Actionable triggers maintain slightly firmer rounding for tactical responsiveness and desktop data precision.
+
+## Components
+
+### Buttons
+- **Primary ("Direct Chat" / "Apply to Boss"):** High-contrast background in `#059669` or solid `#0F172A`, bold white typography (`Hanken Grotesk`, 600), 8px border-radius, zero shadow, slight scale feedback on press (`0.98`).
+- **Secondary / Ghost:** `#FFFFFF` background with 1px border `#E5E7EB`, text `#111827`, subtle hover background fill `#F9FAFB`.
+- **Icon Action Buttons:** Circular or 8px rounded containers housing instant call/chat triggers with active green status indicators.
+
+### Cards (Job Listing & Executive Profile)
+- **Structure:** Crisp white background `#FFFFFF`, 1px border `#E5E7EB`, 16px corner radius (`rounded-lg`), 20px internal padding (`space-lg`).
+- **Header Line:** Job Title (`headline-sm`, `#0F172A`) paired left-to-right with the Salary Tier (`label-salary`, `#059669`).
+- **Recruiter Row:** 36px circular avatar with a 10px status dot indicating activity, followed by recruiter name, title, and verification badge.
+- **Footer:** Skill pills and instant "Chat directly" quick trigger that bypasses standard ATS submission forms.
+
+### Chips & Badges
+- **Executive Micro-Badges:** Ultra-compact pill badges with `#ECFDF5` background, `#059669` text, and a crisp 1px `#A7F3D0` border. Text formatted in `JetBrains Mono` uppercase (`label-badge`): `DIRECT BOSS`, `VERIFIED HIRER`, `NO ATS`.
+- **Skill & Requirement Chips:** `#F3F4F6` background, `#374151` typography, `label-sm`, 6px 12px pill geometry.
+
+### Input Fields & Search Bars
+- **Global Intent Search:** Heavy single-line input with 12px corner radius, `#F9FAFB` fill, 1px `#E5E7EB` stroke. Expands to include inline filter chips (Role, Experience, Salary Floor).
+- **Form Controls:** Clean 44px height standard, high-contrast dark placeholder text `#9CA3AF`, shifting to 1.5px `#059669` border on `:focus` with zero outer ring glow.
+
+### Checkboxes & Radio Controls
+- **Style:** Square 18px checkboxes with 4px corner radius; 18px circular radios.
+- **Active State:** Solid `#059669` background with stark white checkmark or center pip. Inactive state features 1.5px border `#D1D5DB`.
+
+### Direct Recruiter Drawer / Chat Strip
+- **Chat Notification Panel:** Fixed dock or slide-over drawer highlighting active decision-makers currently viewing the profile, with an active-state green pulse dot and one-click chat initialization.
