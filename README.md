@@ -1,5 +1,7 @@
 # FindMeAJob
 
+**Live app:** https://aistudio.google.com/apps/8fca37dd-da73-4e91-833a-54d35e0f9809?fullscreenApplet=true&showAssistant=true&showPreview=true
+
 A job-search tracker that helps you manage applications across **Saved → Applied → Interview → Offer** stages, with pay ranges, resume versions, interview round notes, and instant local persistence — no backend or database required.
 
 ## Features
